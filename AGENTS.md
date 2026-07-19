@@ -11,7 +11,7 @@ This version has breaking changes — APIs, conventions, and file structure may 
 | What | Value |
 |---|---|
 | Node | `>= 24` (engines field in package.json) |
-| Next.js | **16.2.10** — shipits own docs at `node_modules/next/dist/docs/` |
+| Next.js | **16.2.10** — ship its own docs at `node_modules/next/dist/docs/` |
 | React | 19.2.4 |
 | Tailwind CSS | v4 |
 | shadcn/ui | style: `base-nova` (with `@base-ui/react` primitives, not Radix) |
@@ -56,4 +56,4 @@ prompts/agents/   # system prompts for custom OpenCode subagents
 
 - **Installed skills** listed in `skills-lock.json` (agent-browser, shadcn, diagnosing-bugs, code-review, design-taste-frontend, ui-ux-pro-max, vercel-react-best-practices, etc.) — load them via `task(load_skills=[...])`.
 - **Custom subagents** defined in `opencode.json` (planner, architect, code-reviewer, security-reviewer, tdd-guide, build-error-resolver, e2e-runner, refactor-cleaner, docs-lookup).
-- **This file + `instructions/INSTRUCTIONS.md`** (which indexes coding-style, testing-requirements, git-workflow, security-guidelines, agent-orchestration) are both loaded as instructions by `opencode.json`.
+- **This file + `instructions/INSTRUCTIONS.md`** (which indexes coding-style, git-workflow, security-guidelines, agent-orchestration) are both loaded as instructions by `opencode.json`.

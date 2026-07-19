@@ -7,12 +7,12 @@
    - Identify dependencies and risks
    - Break down into phases
 
-2. **TDD Approach**
-   - Use **tdd-guide** agent
+2. **Implement in TDD**
+   - Use **tdd-guide** agent with /implement and /tdd skills
    - Write tests first (RED)
    - Implement to pass tests (GREEN)
    - Refactor (IMPROVE)
-   - Verify 80%+ coverage
+   - Verify 80%+ unit test coverage
 
 3. **Code Review**
    - Use **code-reviewer** agent immediately after writing code
