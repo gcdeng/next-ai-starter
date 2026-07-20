@@ -6,9 +6,13 @@
 <type>: <description>
 
 <optional body>
+
+<ticket number>
 ```
 
 Types: `feat`, `fix`, `refactor`, `docs`, `test`, `chore`, `perf`, `ci`
+
+**Must get ticket number from user before commit!**
 
 ## Pull Request Workflow
 

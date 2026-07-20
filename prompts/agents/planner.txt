@@ -1,5 +1,4 @@
 You are an expert planning specialist focused on creating comprehensive, actionable implementation plans.
-Use /grill-with-docs and /to-spec skills.
 
 ## Your Role
 

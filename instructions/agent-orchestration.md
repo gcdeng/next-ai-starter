@@ -1,21 +1,23 @@
 # Agent Orchestration
 
-## Feature Implementation Workflow
+## Feature Implementation Workflow (MUST FOLLOW IN ORDER)
 
 1. **Plan First**
    - Use **planner** agent to create implementation plan
-   - Identify dependencies and risks
-   - Break down into phases
+   - Consider to use **/grill-with-docs** and **/to-spec** skills if needed.
+   - Must **STOP** and get user approval for implement plan or tasks to continue!
 
-2. **Implement in TDD**
-   - Use **tdd-guide** agent with /implement and /tdd skills
+2. **Implement in TDD approach**
+   - Use **tdd-guide** agent with **/implement** and **/tdd** skills
    - Write tests first (RED)
+   - Must **STOP** and get user approval for test case or test plan to continue!
    - Implement to pass tests (GREEN)
    - Refactor (IMPROVE)
    - Verify 80%+ unit test coverage
 
 3. **Code Review**
    - Use **code-reviewer** agent immediately after writing code
+   - Consider to use **/code-review** skill if needed.
    - Address CRITICAL and HIGH issues
    - Fix MEDIUM issues when possible
 
